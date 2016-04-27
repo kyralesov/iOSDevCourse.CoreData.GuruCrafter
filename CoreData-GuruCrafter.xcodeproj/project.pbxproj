@@ -15,6 +15,8 @@
 		14440E751CD09BE100420896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14440E741CD09BE100420896 /* Assets.xcassets */; };
 		14440E781CD09BE100420896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14440E761CD09BE100420896 /* LaunchScreen.storyboard */; };
 		14440E811CD09D4400420896 /* EKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14440E801CD09D4400420896 /* EKDataManager.m */; };
+		14440E831CD09F2C00420896 /* Read.me in Resources */ = {isa = PBXBuildFile; fileRef = 14440E821CD09F2C00420896 /* Read.me */; };
+		14440E871CD0A3B000420896 /* EKCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14440E861CD0A3B000420896 /* EKCoreDataViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,9 @@
 		14440E791CD09BE100420896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14440E7F1CD09D4400420896 /* EKDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDataManager.h; sourceTree = "<group>"; };
 		14440E801CD09D4400420896 /* EKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDataManager.m; sourceTree = "<group>"; };
+		14440E821CD09F2C00420896 /* Read.me */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Read.me; sourceTree = "<group>"; };
+		14440E851CD0A3B000420896 /* EKCoreDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKCoreDataViewController.h; sourceTree = "<group>"; };
+		14440E861CD0A3B000420896 /* EKCoreDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKCoreDataViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +52,7 @@
 		14440E591CD09BE100420896 = {
 			isa = PBXGroup;
 			children = (
+				14440E821CD09F2C00420896 /* Read.me */,
 				14440E641CD09BE100420896 /* CoreData-GuruCrafter */,
 				14440E631CD09BE100420896 /* Products */,
 			);
@@ -64,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				14440E681CD09BE100420896 /* AppDelegate.h */,
+				14440E841CD0A37B00420896 /* View Controllers */,
 				14440E691CD09BE100420896 /* AppDelegate.m */,
 				14440E7F1CD09D4400420896 /* EKDataManager.h */,
 				14440E801CD09D4400420896 /* EKDataManager.m */,
@@ -85,6 +92,15 @@
 				14440E661CD09BE100420896 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		14440E841CD0A37B00420896 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				14440E851CD0A3B000420896 /* EKCoreDataViewController.h */,
+				14440E861CD0A3B000420896 /* EKCoreDataViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +165,7 @@
 				14440E781CD09BE100420896 /* LaunchScreen.storyboard in Resources */,
 				14440E751CD09BE100420896 /* Assets.xcassets in Resources */,
 				14440E701CD09BE100420896 /* Main.storyboard in Resources */,
+				14440E831CD09F2C00420896 /* Read.me in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14440E6D1CD09BE100420896 /* ViewController.m in Sources */,
+				14440E871CD0A3B000420896 /* EKCoreDataViewController.m in Sources */,
 				14440E811CD09D4400420896 /* EKDataManager.m in Sources */,
 				14440E6A1CD09BE100420896 /* AppDelegate.m in Sources */,
 				14440E671CD09BE100420896 /* main.m in Sources */,
