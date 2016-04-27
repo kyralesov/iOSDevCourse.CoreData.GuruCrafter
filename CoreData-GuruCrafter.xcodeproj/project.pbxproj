@@ -14,6 +14,7 @@
 		14440E731CD09BE100420896 /* CoreData_GuruCrafter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14440E711CD09BE100420896 /* CoreData_GuruCrafter.xcdatamodeld */; };
 		14440E751CD09BE100420896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14440E741CD09BE100420896 /* Assets.xcassets */; };
 		14440E781CD09BE100420896 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14440E761CD09BE100420896 /* LaunchScreen.storyboard */; };
+		14440E811CD09D4400420896 /* EKDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14440E801CD09D4400420896 /* EKDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		14440E741CD09BE100420896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14440E771CD09BE100420896 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14440E791CD09BE100420896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14440E7F1CD09D4400420896 /* EKDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKDataManager.h; sourceTree = "<group>"; };
+		14440E801CD09D4400420896 /* EKDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 			children = (
 				14440E681CD09BE100420896 /* AppDelegate.h */,
 				14440E691CD09BE100420896 /* AppDelegate.m */,
+				14440E7F1CD09D4400420896 /* EKDataManager.h */,
+				14440E801CD09D4400420896 /* EKDataManager.m */,
 				14440E6B1CD09BE100420896 /* ViewController.h */,
 				14440E6C1CD09BE100420896 /* ViewController.m */,
 				14440E6E1CD09BE100420896 /* Main.storyboard */,
@@ -108,6 +113,7 @@
 		14440E5A1CD09BE100420896 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = EK;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Kyralesov;
 				TargetAttributes = {
@@ -154,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14440E6D1CD09BE100420896 /* ViewController.m in Sources */,
+				14440E811CD09D4400420896 /* EKDataManager.m in Sources */,
 				14440E6A1CD09BE100420896 /* AppDelegate.m in Sources */,
 				14440E671CD09BE100420896 /* main.m in Sources */,
 				14440E731CD09BE100420896 /* CoreData_GuruCrafter.xcdatamodeld in Sources */,
